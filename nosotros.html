@@ -15,8 +15,10 @@
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
 	<!-- Bootstrap 5 -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Bootstrap 5 Iconos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
     <!-- UiKit -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.24/dist/css/uikit.min.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.24/dist/css/uikit.min.css"/>
 
     <style>
         .link-home:hover {
@@ -184,11 +186,11 @@
                             <div class="col position-relative py-5 border border-white">
                                 <div class="row">
                                     <div class="col-6">
-                                        <div class="display-1 text-center">
+                                        <div class="display-2 text-center">
                                             MISIÓN
                                         </div>
                                     </div>
-                                    <div class="col-6 px-5">
+                                    <div class="col-6 px-3">
                                         <p class="text-white">
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae perferendis porro reiciendis praesentium quam eaque. Vitae inventore eos quisquam fugiat tempore consequuntur, laudantium cumque ducimus ab accusantium sit quae culpa minima illo laborum. Veniam culpa magni voluptatem totam! Quas, ut?
                                         </p>
@@ -205,11 +207,11 @@
                             <div class="col position-relative py-5 border border-white">
                                 <div class="row">
                                     <div class="col-6">
-                                        <div class="display-1 text-center">
+                                        <div class="display-2 text-center">
                                             VISIÓN
                                         </div>
                                     </div>
-                                    <div class="col-6 px-5">
+                                    <div class="col-6 px-3">
                                         <p class="text-white">
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae perferendis porro reiciendis praesentium quam eaque. Vitae inventore eos quisquam fugiat tempore consequuntur, laudantium cumque ducimus ab accusantium sit quae culpa minima illo laborum. Veniam culpa magni voluptatem totam! Quas, ut?
                                         </p>
@@ -227,12 +229,14 @@
         <div class="row mt-5 mb-5 py-5">
             <div class="col">
                 <div class="row">
-                    <div class="col-3 text-end">
-                        <div class="display-1">
+                    <div class="col-1"></div>
+                    <div class="col-2 text-start">
+                        <div class="display-2">
                             FILOSOFÍA
                         </div>
                     </div>
-                    <div class="col-8 mx-auto mb-5 border-bottom border-2 border-primary"></div>
+                    <div class="col-1"></div>
+                    <div class="col-7 mx-auto mb-5 border-bottom border-2 border-primary"></div>
                 </div>
                 <div class="row mt-5 mb-5">
                     <div class="col-9 mx-auto">
@@ -312,6 +316,15 @@
                                     </div>
                                 </div>
                             </div>
+                            <div>
+                                <a class="uk-button uk-button-default py-2 px-5 rounded text-white" href="#modal-center" uk-toggle style="background-color: #002859;">VALOR X</a>
+                                <div id="modal-center" class="uk-flex-top" uk-modal>
+                                    <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+                                        <button class="uk-modal-close-default" type="button" uk-close></button>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -320,12 +333,14 @@
         <div class="row mt-5 mb-5 py-5">
             <div class="col">
                 <div class="row">
-                    <div class="col-9 mb-5 border-bottom border-2 border-primary"></div>
-                    <div class="col-3">
-                        <div class="display-1">
+                    <div class="col-1 px-5"></div>
+                    <div class="col-8 mb-5 border-bottom border-2 border-primary"></div>
+                    <div class="col-2">
+                        <div class="display-2">
                             EQUIPO
                         </div>
                     </div>
+                    <div class="col-2"></div>
                 </div>
                 <div class="row mt-5">
                     <div class="col-9">
@@ -599,7 +614,7 @@
             dots: true,
             infinite: false,
             speed: 300,
-            slidesToShow: 4,
+            slidesToShow: 5,
             slidesToScroll: 1,
             responsive: [
             {
