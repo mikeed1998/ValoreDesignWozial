@@ -16,57 +16,60 @@
 	<!-- Bootstrap 5 -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- UiKit -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.24/dist/css/uikit.min.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.24/dist/css/uikit.min.css"/>
+
+    <style>
+        .link-home:hover {
+            text-decoration: none;
+            border-bottom: 3px solid white; 
+            padding-bottom: 6px;
+        }
+
+        .nav-link:hover {
+            text-decoration: none;
+            border-bottom: 3px solid white; 
+            padding-bottom: 6px;
+        }
+
+        .azul-oscuro {
+            background-color: #002859;
+        }
+
+        .texto-azul-oscuro {
+            color: #002859;
+        }
+
+        .fondo-nosotros_header {
+            background-image: url('img/nosotros/002-107-000.png');
+            box-shadow: inset 0 0 0 1000px rgba(0, 42, 92, 0.9);
+        }
+
+        .fondo-nosotros_asegurados {
+            background-image: url('img/nosotros/002-107-000.png');
+            box-shadow: inset 0 0 0 1000px rgba(188, 188, 176, 0.9);
+        }
+
+        .map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+    </style>
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-1 text-center border border-dark py-3">1</div>
-            <div class="col-1 text-center border border-dark py-3">2</div>
-            <div class="col-1 text-center border border-dark py-3">3</div>
-            <div class="col-1 text-center border border-dark py-3">4</div>
-            <div class="col-1 text-center border border-dark py-3">5</div>
-            <div class="col-1 text-center border border-dark py-3">6</div>
-            <div class="col-1 text-center border border-dark py-3">7</div>
-            <div class="col-1 text-center border border-dark py-3">8</div>
-            <div class="col-1 text-center border border-dark py-3">9</div>
-            <div class="col-1 text-center border border-dark py-3">10</div>
-            <div class="col-1 text-center border border-dark py-3">11</div>
-            <div class="col-1 text-center border border-dark py-3">12</div>
-        </div>
-        <div class="row">
-            <div class="col-2 text-center border border-dark py-3">2</div>
-            <div class="col-2 text-center border border-dark py-3">2</div>
-            <div class="col-2 text-center border border-dark py-3">2</div>
-            <div class="col-2 text-center border border-dark py-3">2</div>
-            <div class="col-2 text-center border border-dark py-3">2</div>
-            <div class="col-2 text-center border border-dark py-3">2</div>
-        </div>
-        <div class="row">
-            <div class="col-3 text-center border border-dark py-3">3</div>
-            <div class="col-3 text-center border border-dark py-3">3</div>
-            <div class="col-3 text-center border border-dark py-3">3</div>
-            <div class="col-3 text-center border border-dark py-3">3</div>
-        </div>
-        <div class="row">
-            <div class="col-4 text-center border border-dark py-3">4</div>
-            <div class="col-4 text-center border border-dark py-3">4</div>
-            <div class="col-4 text-center border border-dark py-3">4</div>
-        </div>
-        <div class="row">
-            <div class="col-6 text-center border border-dark py-3">6</div>
-            <div class="col-6 text-center border border-dark py-3">6</div>
-        </div>
-        <div class="row">
-            <div class="col-12 text-center border border-dark py-3">12</div>
-        </div>
-    </div>
-
-    <header class="header" style="background-color: #002859;">
+    <header class="header fondo-nosotros_header">
         <div class="container-fluid">
             <div class="row">
                 <div class="col text-center">
-                    <nav class="navbar navbar-expand-lg" style="background-color: #002859;">
+                    <nav class="navbar navbar-expand-lg">
                         <div class="row mx-auto">
                             <div class="container-fluid text-center">
                                 <div class="row mx-auto">
@@ -114,14 +117,116 @@
                     </nav>
                 </div>
             </div>
+            <div class="row mt-5">
+                <div class="col-xl-4 col-lg-4 col-md-9 col-sm-9 col-xs-9 mx-auto mt-5 mb-2">
+                    <div class="display-1 text-white">
+                        <strong>CONTACTO</strong>
+                    </div>
+                </div>
+            </div>
         </div>
+        <br><br><br><br><br><br><br><br><br><br>
     </header>
 
-    <main class="main-index border border-danger p-5">
-        <div class="container-fluid border border-primary p-5">
-            <div class="row border border-success p-5">
-                <div class="col border border-dark p-5">
-                    
+    <main class="main-index">
+        <div class="container-fluid mt-5 mb-5 py-5">
+            <div class="row mt-5 mb-3">
+                <div class="col-9 px-5 mx-auto border border-2 border-primary py-5 position-relative">
+                    <div class="row">
+                        <div class="col">
+                            <h6 class="m-0">ENVÍANOS UN</h6>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mb-5">
+                            <div class="display-1">
+                                MENSAJE
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p>TEL: 33 33 33 33 33</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p>contacto@valore.com</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p>Dirección completa de la Empresa#</p>
+                        </div>
+                    </div>
+                    <div class="col-7 rounded py-0 bg-white shadow position-absolute top-50 start-50 translate-middle-y" style="margin-top: 120px;">
+                        <div class="row mt-5">
+                            <div class="col mx-5">
+                                <div class="row form-group">
+                                    <div class="col-3 border-end border-white px-0">
+                                        <label for="nombre" class="form-control rounded py-3 azul-oscuro text-white">NOMBRE</label>
+                                    </div>
+                                    <div class="col-9 px-0">
+                                        <input type="text" id="nombre" name="nombre" class="form-control rounded py-3 azul-oscuro">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <div class="col-3 border-end border-white px-0">
+                                        <label for="correo" class="form-control rounded py-3 azul-oscuro text-white">CORREO</label>
+                                    </div>
+                                    <div class="col-9 px-0">
+                                        <input type="email" id="correo" name="correo" class="form-control rounded py-3 azul-oscuro">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <div class="col-3 border-end border-white px-0">
+                                        <label for="whatsapp" class="form-control rounded py-3 azul-oscuro text-white">WHATSAPP</label>
+                                    </div>
+                                    <div class="col-9 px-0">
+                                        <input type="number" id="whatsapp" name="whatsapp" class="form-control py-3 rounded azul-oscuro">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <div class="col-12 mb-5 px-0">
+                                        <textarea name="mensaje" id="mensaje" cols="30" rows="6" class="form-control azul-oscuro" placeholder="MENSAJE"></textarea>
+                                        <div class="col-11 mt-2 px-2 position-absolute">            
+                                            <div class="row">
+                                                <button class="btn btn-outline">
+                                                    <div class="row">
+                                                        <div class="col-3 border-end border-white rounded py-3 px-0 text-center" style="background-color: #BCBCB0;">
+                                                            ENVIAR
+                                                        </div>
+                                                        <div class="col-1 rounded py-3 px-0 text-center" style="background-color: #BCBCB0;">
+                                                            >
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-9 mx-auto">
+                    <a href="" uk-icon="icon: whatsapp; ratio: 1.5;" class="px-2"></a>
+                    <a href="" uk-icon="icon: facebook; ratio: 1.5;" class="px-2"></a>
+                    <a href="" uk-icon="icon: instagram; ratio: 1.5;" class="px-2"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid mt-5 mb-5 py-5">
+            <div class="row mt-5">
+                <div class="col-12 mt-5">
+                    <!--Google map-->
+                    <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px;">
+                        <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                    <!--Google Maps-->
                 </div>
             </div>
         </div>
@@ -206,7 +311,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-12 mt-3">
-                                            <h3 class="text-white">CONTACTO</h3>
+                                            <h3 class="text-white"><a class="link-home text-white" href="contacto.html">CONTACTO</a></h3>
                                         </div>
                                         <div class="col-12">
                                             <h3 class="text-white">TEL. 33 33 33 33 33 33</h3>
