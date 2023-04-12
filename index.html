@@ -100,10 +100,10 @@
             min-height: 500px;  
         } */
         
-        body {
+        /* body {
             background-size: 40px 40px;
             background-image: radial-gradient(circle, #000000 1px, rgba(0, 0, 0, 0) 1px);
-        }
+        } */
 
         /* body {
             background-size: 40px 40px;
@@ -215,7 +215,7 @@
 </head>
 <body>
     <header class="header" style="background-color: #002859;">
-        <div class="container-fluid">
+        <div class="container py-3">
             <div class="row">
                 <div class="col-xl-5 col-lg-5 col-md-9 col-sm-12 col-xs-12 mx-auto py-1">
                     <div class="row">
@@ -278,106 +278,120 @@
         </div>
     </header>
 
-    <main class="main-index">
-        <div class="container-fluid">
-            <div class="row border">
-                <div class="col-12 position-relative" style="background-color: #002859;">
+    <main class="main-index" style="background-color: #002859;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 py-5 position-relative">
+                    
                     <div id="carrusel-index">
                         
-                        <div class="col mx-auto position-relative img-fluid" 
-                            style="background-color: #002859; 
-                                background-image: url('img/index/015-164.png'), url('img/index/015-168.png'); 
-                                background-size: 400px 600px, 600px 600px; 
-                                background-repeat: no-repeat, no-repeat; 
-                                background-position: right 10px top;
-                                width: 800px; height: 800px; 
-                                background-position: center, center;">
-
-                            <div class="col-3 m-5 p-5 position-absolute start-0 bottom-0">
-                                <br><br><br><br><br>
-                                <div class="row">
-                                    <div class="col-6 py-2 border-white">
-                                        <div class="row">
-                                            <div class="col border-top border-2"></div>
+                        <div class="col position-relative mt-5 mb-5">
+                            <div class="col-12 text-center px-0 position-absolute top-50 start-50 translate-middle" style="z-index: 9999;">
+                                <div class="display-1 text-white">
+                                    <strong>
+                                        VACATNES DE VALOR
+                                    </strong>
+                                </div>
+                            </div>     
+                            <div class="row align-items-end">
+                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 mx-auto py-5 text-center">
+                                    <div class="row">
+                                        <div class="col-6 py-2">
+                                            <div class="row">
+                                                <div class="col border-top border-2"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-start text-white">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, a! Vel pariatur fuga quaerat beatae eos repellendus quibusdam veritatis. Cupiditate.
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="col text-white">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, a! Vel pariatur fuga quaerat beatae eos repellendus quibusdam veritatis. Cupiditate.
+                                <div class="col-xl-6 col-lg-6 col-md-9 col-sm-12 col-xs-12 mx-auto py-5 text-center position-relative">                               
+                                    <div class="row">      
+                                        <div class="col mt-5 text-center position-relative">
+                                            <img src="img/index/015-168.png" alt="" class="img-fluid">
+                                            <div class="col-9 position-absolute bottom-0 start-50 translate-middle-x z-1">
+                                                <img src="img/index/015-164.png" alt="" class="img-fluid">                           
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-9 text-white text-center p-5 bg-transparent position-absolute top-50 start-50 translate-middle">
-                                
-                                <div class="display-1"><strong>Titulo de la imagen (Vacante)</strong></div>
-                                
-                            </div>
-                            <div class="col mt-5 p-5 position-absolute end-0 bottom-0" style="background-color: #002859;">
-                                <div class="row">
-                                    <div class="col bg-white rounded">
-                                        <a href="#" style="text-decoration: none;">
-                                            <div class="row rounded">
-                                                <div class="col-9 py-3 border-end border-dark text-center">
-                                                    <h4 class="p-0 m-0">
-                                                        Vacantes
-                                                    </h4>
+                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 mx-auto py-5 text-center">
+                                    <div class="row">
+                                        <div class="col-6 mx-auto bg-white rounded">
+                                            <a href="#" style="text-decoration: none;">
+                                                <div class="row rounded">
+                                                    <div class="col-9 py-3 border-end border-dark text-center">
+                                                        <h4 class="p-0 m-0">
+                                                            Vacantes
+                                                        </h4>
+                                                    </div>
+                                                    <div class="col-3 py-3">
+                                                        <h4 class="p-0 m-0">                                    
+                                                            >
+                                                        </h4>
+                                                    </div>
                                                 </div>
-                                                <div class="col-3 py-3">
-                                                    <h4 class="p-0 m-0">                                    
-                                                        >
-                                                    </h4>
-                                                </div>
-                                            </div>
-                                        </a>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col mx-auto position-relative" 
-                            style="background-color: #002859; 
-                                background-image: url('img/index/015-164.png'), url('img/index/015-168.png'); 
-                                background-size: 400px 600px, 600px 600px; 
-                                background-repeat: no-repeat, no-repeat; 
-                                background-position: right 10px top;
-                                width: 800px; height: 800px; 
-                                background-position: center, center;">
-
-                            <div class="col-3 m-5 p-5 position-absolute start-0 bottom-0">
-                                <div class="row">
-                                    <div class="col-6 py-2 border-white">
-                                        <div class="row">
-                                            <div class="col border-top border-2"></div>
+                        <div class="col position-relative mt-5 mb-5">
+                            <div class="col-12 text-center px-0 position-absolute top-50 start-50 translate-middle" style="z-index: 9999;">
+                                <div class="display-1 text-white">
+                                    <strong>
+                                        VACATNES DE VALOR
+                                    </strong>
+                                </div>
+                            </div>     
+                            <div class="row align-items-end">
+                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 mx-auto py-5 text-center">
+                                    <div class="row">
+                                        <div class="col-6 py-2">
+                                            <div class="row">
+                                                <div class="col border-top border-2"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-start text-white">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, a! Vel pariatur fuga quaerat beatae eos repellendus quibusdam veritatis. Cupiditate.
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="col text-white">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, a! Vel pariatur fuga quaerat beatae eos repellendus quibusdam veritatis. Cupiditate.
+                                <div class="col-xl-6 col-lg-6 col-md-9 col-sm-12 col-xs-12 mx-auto py-5 text-center position-relative">                               
+                                    <div class="row">      
+                                        <div class="col mt-5 text-center position-relative">
+                                            <img src="img/index/015-168.png" alt="" class="img-fluid">
+                                            <div class="col-9 position-absolute bottom-0 start-50 translate-middle-x z-1">
+                                                <img src="img/index/015-164.png" alt="" class="img-fluid">                           
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-9 text-white text-center p-5 bg-transparent position-absolute top-50 start-50 translate-middle">
-                                <div class="display-1"><strong>Titulo de la imagen (Vacante)</strong></div>
-                            </div>
-                            <div class="col mt-5 p-5 position-absolute end-0 bottom-0" style="background-color: #002859;">
-                                <div class="row">
-                                    <div class="col bg-white rounded">
-                                        <a href="#" style="text-decoration: none;">
-                                            <div class="row rounded">
-                                                <div class="col-9 py-3 border-end border-dark text-center">
-                                                    <h4 class="p-0 m-0">
-                                                        Vacantes
-                                                    </h4>
+                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 mx-auto py-5 text-center">
+                                    <div class="row">
+                                        <div class="col-6 mx-auto bg-white rounded">
+                                            <a href="#" style="text-decoration: none;">
+                                                <div class="row rounded">
+                                                    <div class="col-9 py-3 border-end border-dark text-center">
+                                                        <h4 class="p-0 m-0">
+                                                            Vacantes
+                                                        </h4>
+                                                    </div>
+                                                    <div class="col-3 py-3">
+                                                        <h4 class="p-0 m-0">                                    
+                                                            >
+                                                        </h4>
+                                                    </div>
                                                 </div>
-                                                <div class="col-3 py-3">
-                                                    <h4 class="p-0 m-0">                                    
-                                                        >
-                                                    </h4>
-                                                </div>
-                                            </div>
-                                        </a>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -390,346 +404,348 @@
         </div>
     </main>
 
-    <div class="container-fluid mt-5 mb-5">
-        <div class="row">
-            <div class="col p-5 border border-dark">
-                
-                <div class="row">
-                    <br><br>
-                    <div class="col-1"></div>
-                    <div class="col-xl-4 col-lg-4 position-relative">
-                        <div class="col-12 mx-5 position-absolute start-50 top-50 z-2 translate-middle">
-                            <img src="img/index/015-142.png" alt="" class="img-fluid px-0">
-                        </div>
-                        <div class="col-12 mx-2 mt-5 position-absolute start-50 top-50 translate-middle z-1 border border-2 border-primary">
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col py-5">
+                    
+                    <div class="row">
+                        <br><br>
+                        <div class="col-1"></div>
+                        <div class="col-xl-4 col-lg-4 position-relative">
+                            <div class="col-12 mx-5 position-absolute start-50 top-50 z-2 translate-middle">
+                                <img src="img/index/015-142.png" alt="" class="img-fluid px-0">
+                            </div>
+                            <div class="col-12 mx-2 mt-5 position-absolute start-50 top-50 translate-middle z-1 border border-2 border-primary">
+                                <div class="gigante">
+                                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                                </div>
+                                <div class="grande">
+                                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                                </div>
+                                <div class="mackbook-air">
+    
+                                </div>
+                            </div>
                             <div class="gigante">
-                                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
                             </div>
                             <div class="grande">
-                                <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
                             </div>
-                            <div class="mackbook-air">
-
-                            </div>
+                            
                         </div>
-                        <div class="gigante">
-                            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-                        </div>
-                        <div class="grande">
-                            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-                        </div>
-                        
-                    </div>
-                    <div class="col-1"></div>
-                    <div class="col-xl-6 col-lg-6 px-5">
-                        <div class="row">
-                            <div class="col px-5">
-                                TE CONTAMOS DE
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col px-5">
-                                <div class="display-1">
-                                    NOSOTROS
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col px-5">
-                                <p style="text-align: justify;">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, eos!Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quam sed molestias? Repellendus, laborum hic. Facere nostrum dolore id ipsam et a delectus inventore voluptatum reiciendis assumenda similique, harum odio vitae voluptate labore dolores animi officiis veritatis asperiores quis tempora, alias doloribus? Recusandae velit laboriosam, voluptatem dolorum culpa suscipit ducimus?
-                                </p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col px-5">
-                                <div class="row">
-                                    <div class="col-6 text-center border border-dark rounded">
-                                        <a href="#" style="text-decoration: none;">
-                                            <div class="row">
-                                                <div class="col-9 py-3 border-end border-dark">
-                                                    <h3 class="m-0 p-0">VER MÁS</h3>
-                                                </div>
-                                                <div class="col-3 py-2">
-                                                    <h2 class="m-0 p-0">></h2>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="linea-media">
-                        <div class="col-4 border-end border-2 border-primary py-5">
-                            <br><br><br><br>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-2"></div>
-                    <div class="col-10 position-relative py-3 px-5 border border-2 border-primary">
-                        <div class="row mt-3">
-                            <div class="col-6">
-                                <div class="display-1">
-                                    VACANTES
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="row mt-3">
-                                    <div class="col">
-                                        <p class="text-start" style="text-align: justify;">
-                                            Lorem ipsum consectetur, adipisicing elit. Laborum dolorem exercitationem sunt eum dolore error saepe culpa dolorum aut! Velit, blanditiis suscipit possimus aspernatur qui quibusdam quia eaque cumque nihil.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-xl-6 col-lg-6 azul-oscuro text-center border border-transparent rounded">
-                                        <a href="#" style="text-decoration: none;">
-                                            <div class="row">
-                                                <div class="col-9 py-3 border-end border-white">
-                                                    <h4 class="m-0 p-0 text-white">VER MÁS</h4>
-                                                </div>
-                                                <div class="col-3 py-2">
-                                                    <h2 class="m-0 p-0 text-center">></h2>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-                        <div class="col-9 position-absolute border border-danger">
+                        <div class="col-1"></div>
+                        <div class="col-xl-6 col-lg-6 px-5">
                             <div class="row">
-                                <div class="col position-relative">
-                                    <div class="col-4 py-0 position-absolute top-0 start-0 translate-middle azul-oscuro">
-                                        <div class="row text-white">
-                                            <div class="col position-relative">
-                                                <div class="col-12 text-center py-5 position-absolute top-0 start-50 translate-middle">
-                                                    <img src="img/index/015-020.png" alt="" class="img-fluid bg-white px-5">
+                                <div class="col px-5">
+                                    TE CONTAMOS DE
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col px-5">
+                                    <div class="display-1">
+                                        NOSOTROS
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col px-5">
+                                    <p style="text-align: justify;">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, eos!Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quam sed molestias? Repellendus, laborum hic. Facere nostrum dolore id ipsam et a delectus inventore voluptatum reiciendis assumenda similique, harum odio vitae voluptate labore dolores animi officiis veritatis asperiores quis tempora, alias doloribus? Recusandae velit laboriosam, voluptatem dolorum culpa suscipit ducimus?
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col px-5">
+                                    <div class="row">
+                                        <div class="col-6 text-center border border-dark rounded">
+                                            <a href="#" style="text-decoration: none;">
+                                                <div class="row">
+                                                    <div class="col-9 py-3 border-end border-dark">
+                                                        <h3 class="m-0 p-0">VER MÁS</h3>
+                                                    </div>
+                                                    <div class="col-3 py-2">
+                                                        <h2 class="m-0 p-0">></h2>
+                                                    </div>
                                                 </div>
-                                                <div class="card mt-5 azul-oscuro">
-                                                    <div class="card-body py-5">
-                                                        <h3 class="text-center text-white ">VACANTE</h3>
-                                                        <div class="accordion" id="accordionExample" >
-                                                            <div class="accordion-item">
-                                                                <h2 class="accordion-header">
-                                                                    <button class="accordion-button collapsed azul-oscuro" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                                                        <h4 class="m-0 p-0 text-white ">DESCRIPCIÓN</h4>
-                                                                    </button>
-                                                                </h2>
-                                                                <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                                                    <div class="accordion-body azul-oscuro text-white ">
-                                                                        <p>
-                                                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi quam eveniet sequi beatae eos optio harum, voluptates saepe possimus voluptate fugiat impedit nihil a consequatur amet. Velit voluptatem molestias corporis explicabo expedita neque nam cumque praesentium laboriosam repudiandae dignissimos unde, accusamus quod consequuntur, delectus adipisci placeat optio sed numquam deserunt.
-                                                                        </p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="linea-media">
+                            <div class="col-4 border-end border-2 border-primary py-5">
+                                <br><br><br><br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2"></div>
+                        <div class="col-10 position-relative py-3 px-5 border border-2 border-primary">
+                            <div class="row mt-3">
+                                <div class="col-6">
+                                    <div class="display-1">
+                                        VACANTES
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="row mt-3">
+                                        <div class="col">
+                                            <p class="text-start" style="text-align: justify;">
+                                                Lorem ipsum consectetur, adipisicing elit. Laborum dolorem exercitationem sunt eum dolore error saepe culpa dolorum aut! Velit, blanditiis suscipit possimus aspernatur qui quibusdam quia eaque cumque nihil.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xl-6 col-lg-6 azul-oscuro text-center border border-transparent rounded">
+                                            <a href="#" style="text-decoration: none;">
+                                                <div class="row">
+                                                    <div class="col-9 py-3 border-end border-white">
+                                                        <h4 class="m-0 p-0 text-white">VER MÁS</h4>
+                                                    </div>
+                                                    <div class="col-3 py-2">
+                                                        <h2 class="m-0 p-0 text-center">></h2>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                            <div class="col-9 position-absolute border border-danger">
+                                <div class="row">
+                                    <div class="col position-relative">
+                                        <div class="col-4 py-0 position-absolute top-0 start-0 translate-middle azul-oscuro">
+                                            <div class="row text-white">
+                                                <div class="col position-relative">
+                                                    <div class="col-12 text-center py-5 position-absolute top-0 start-50 translate-middle">
+                                                        <img src="img/index/015-020.png" alt="" class="img-fluid bg-white px-5">
+                                                    </div>
+                                                    <div class="card mt-5 azul-oscuro">
+                                                        <div class="card-body py-5">
+                                                            <h3 class="text-center text-white ">VACANTE</h3>
+                                                            <div class="accordion" id="accordionExample" >
+                                                                <div class="accordion-item">
+                                                                    <h2 class="accordion-header">
+                                                                        <button class="accordion-button collapsed azul-oscuro" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                                                            <h4 class="m-0 p-0 text-white ">DESCRIPCIÓN</h4>
+                                                                        </button>
+                                                                    </h2>
+                                                                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                                        <div class="accordion-body azul-oscuro text-white ">
+                                                                            <p>
+                                                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi quam eveniet sequi beatae eos optio harum, voluptates saepe possimus voluptate fugiat impedit nihil a consequatur amet. Velit voluptatem molestias corporis explicabo expedita neque nam cumque praesentium laboriosam repudiandae dignissimos unde, accusamus quod consequuntur, delectus adipisci placeat optio sed numquam deserunt.
+                                                                            </p>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
-                                                            </div>
-                                                            <div class="accordion-item">
-                                                                <h2 class="accordion-header">
-                                                                    <button class="accordion-button collapsed azul-oscuro" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                                        <h4 class="m-0 p-0 text-white ">REQUISITOS</h4>
-                                                                    </button>
-                                                                </h2>
-                                                                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                                                    <div class="accordion-body azul-oscuro text-white">
-                                                                        <p>
-                                                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse consequatur, nemo eos ex veritatis unde distinctio minus quaerat in molestias soluta. Quisquam sint in vel dignissimos quae distinctio. Qui corrupti fugit, ducimus dolor vel repudiandae eos, vitae, quibusdam sunt sit id doloremque aliquid dolore iusto minima voluptates? Ratione, consectetur aliquid.
-                                                                        </p>
+                                                                <div class="accordion-item">
+                                                                    <h2 class="accordion-header">
+                                                                        <button class="accordion-button collapsed azul-oscuro" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                                            <h4 class="m-0 p-0 text-white ">REQUISITOS</h4>
+                                                                        </button>
+                                                                    </h2>
+                                                                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                                        <div class="accordion-body azul-oscuro text-white">
+                                                                            <p>
+                                                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse consequatur, nemo eos ex veritatis unde distinctio minus quaerat in molestias soluta. Quisquam sint in vel dignissimos quae distinctio. Qui corrupti fugit, ducimus dolor vel repudiandae eos, vitae, quibusdam sunt sit id doloremque aliquid dolore iusto minima voluptates? Ratione, consectetur aliquid.
+                                                                            </p>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
-                                                            </div>
-                                                            <div class="accordion-item">
-                                                                <h2 class="accordion-header">
-                                                                    <button class="accordion-button collapsed azul-oscuro" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                                        <h4 class="m-0 p-0 text-white ">PRESTACIONES</h4>
-                                                                    </button>
-                                                                </h2>
-                                                                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                                                    <div class="accordion-body azul-oscuro text-white ">
-                                                                        <p>
-                                                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse consequatur, nemo eos ex veritatis unde distinctio minus quaerat in molestias soluta. Quisquam sint in vel dignissimos quae distinctio. Qui corrupti fugit, ducimus dolor vel repudiandae eos, vitae, quibusdam sunt sit id doloremque aliquid dolore iusto minima voluptates? Ratione, consectetur aliquid.
-                                                                        </p>
+                                                                <div class="accordion-item">
+                                                                    <h2 class="accordion-header">
+                                                                        <button class="accordion-button collapsed azul-oscuro" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                                            <h4 class="m-0 p-0 text-white ">PRESTACIONES</h4>
+                                                                        </button>
+                                                                    </h2>
+                                                                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                                        <div class="accordion-body azul-oscuro text-white ">
+                                                                            <p>
+                                                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse consequatur, nemo eos ex veritatis unde distinctio minus quaerat in molestias soluta. Quisquam sint in vel dignissimos quae distinctio. Qui corrupti fugit, ducimus dolor vel repudiandae eos, vitae, quibusdam sunt sit id doloremque aliquid dolore iusto minima voluptates? Ratione, consectetur aliquid.
+                                                                            </p>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
-                                                            </div>
-                                                            <div class="col py-2 text-center border">
-                                                                <h4 class="m-0 p-0 text-white ">$9.000.00 <br> mensuales</h4>
+                                                                <div class="col py-2 text-center border">
+                                                                    <h4 class="m-0 p-0 text-white ">$9.000.00 <br> mensuales</h4>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                                <div class="col-12 mt-0 position-absolute top-100 start-50 translate-middle">
-                                                    <div class="row">
-                                                        <div class="col-xl-8 col-lg-8 mx-auto text-center border border-transparent rounded">
-                                                            <a href="#" style="text-decoration: none;">
-                                                                <div class="row">
-                                                                    <div class="col-9 py-3 border-end border-white" style="background-color: #BCBCB0;">
-                                                                        <h4 class="m-0 p-0 texto-azul-oscuro">VER MÁS</h4>
+                                                    <div class="col-12 mt-0 position-absolute top-100 start-50 translate-middle">
+                                                        <div class="row">
+                                                            <div class="col-xl-8 col-lg-8 mx-auto text-center border border-transparent rounded">
+                                                                <a href="#" style="text-decoration: none;">
+                                                                    <div class="row">
+                                                                        <div class="col-9 py-3 border-end border-white" style="background-color: #BCBCB0;">
+                                                                            <h4 class="m-0 p-0 texto-azul-oscuro">VER MÁS</h4>
+                                                                        </div>
+                                                                        <div class="col-3 py-2" style="background-color: #BCBCB0;">
+                                                                            <h2 class="m-0 p-0 texto-azul-oscuro">></h2>
+                                                                        </div>
                                                                     </div>
-                                                                    <div class="col-3 py-2" style="background-color: #BCBCB0;">
-                                                                        <h2 class="m-0 p-0 texto-azul-oscuro">></h2>
-                                                                    </div>
-                                                                </div>
-                                                            </a>
+                                                                </a>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="col-4 position-absolute top-0 start-50 translate-middle" style="background-color: #002859;">
-                                        <div class="row text-white">
-                                            <div class="col position-relative">
-                                                <div class="col-12 text-center py-5 position-absolute top-0 start-50 translate-middle">
-                                                    <img src="img/index/015-020.png" alt="" class="img-fluid bg-white px-5">
-                                                </div>
-                                                <div class="card mt-5 azul-oscuro">
-                                                    <div class="card-body py-5">
-                                                        <h3 class="text-center text-white ">VACANTE</h3>
-                                                        <div class="accordion" id="accordionExample2" >
-                                                            <div class="accordion-item">
-                                                                <h2 class="accordion-header">
-                                                                    <button class="accordion-button collapsed azul-oscuro" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                                                        <h4 class="m-0 p-0 text-white ">DESCRIPCIÓN</h4>
-                                                                    </button>
-                                                                </h2>
-                                                                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample2">
-                                                                    <div class="accordion-body azul-oscuro text-white ">
-                                                                        <p>
-                                                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi quam eveniet sequi beatae eos optio harum, voluptates saepe possimus voluptate fugiat impedit nihil a consequatur amet. Velit voluptatem molestias corporis explicabo expedita neque nam cumque praesentium laboriosam repudiandae dignissimos unde, accusamus quod consequuntur, delectus adipisci placeat optio sed numquam deserunt.
-                                                                        </p>
+                                        <div class="col-4 position-absolute top-0 start-50 translate-middle" style="background-color: #002859;">
+                                            <div class="row text-white">
+                                                <div class="col position-relative">
+                                                    <div class="col-12 text-center py-5 position-absolute top-0 start-50 translate-middle">
+                                                        <img src="img/index/015-020.png" alt="" class="img-fluid bg-white px-5">
+                                                    </div>
+                                                    <div class="card mt-5 azul-oscuro">
+                                                        <div class="card-body py-5">
+                                                            <h3 class="text-center text-white ">VACANTE</h3>
+                                                            <div class="accordion" id="accordionExample2" >
+                                                                <div class="accordion-item">
+                                                                    <h2 class="accordion-header">
+                                                                        <button class="accordion-button collapsed azul-oscuro" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                                                            <h4 class="m-0 p-0 text-white ">DESCRIPCIÓN</h4>
+                                                                        </button>
+                                                                    </h2>
+                                                                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample2">
+                                                                        <div class="accordion-body azul-oscuro text-white ">
+                                                                            <p>
+                                                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi quam eveniet sequi beatae eos optio harum, voluptates saepe possimus voluptate fugiat impedit nihil a consequatur amet. Velit voluptatem molestias corporis explicabo expedita neque nam cumque praesentium laboriosam repudiandae dignissimos unde, accusamus quod consequuntur, delectus adipisci placeat optio sed numquam deserunt.
+                                                                            </p>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
-                                                            </div>
-                                                            <div class="accordion-item">
-                                                                <h2 class="accordion-header">
-                                                                    <button class="accordion-button collapsed azul-oscuro" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                                                        <h4 class="m-0 p-0 text-white ">REQUISITOS</h4>
-                                                                    </button>
-                                                                </h2>
-                                                                <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample2">
-                                                                    <div class="accordion-body azul-oscuro text-white">
-                                                                        <p>
-                                                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse consequatur, nemo eos ex veritatis unde distinctio minus quaerat in molestias soluta. Quisquam sint in vel dignissimos quae distinctio. Qui corrupti fugit, ducimus dolor vel repudiandae eos, vitae, quibusdam sunt sit id doloremque aliquid dolore iusto minima voluptates? Ratione, consectetur aliquid.
-                                                                        </p>
+                                                                <div class="accordion-item">
+                                                                    <h2 class="accordion-header">
+                                                                        <button class="accordion-button collapsed azul-oscuro" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                                                            <h4 class="m-0 p-0 text-white ">REQUISITOS</h4>
+                                                                        </button>
+                                                                    </h2>
+                                                                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample2">
+                                                                        <div class="accordion-body azul-oscuro text-white">
+                                                                            <p>
+                                                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse consequatur, nemo eos ex veritatis unde distinctio minus quaerat in molestias soluta. Quisquam sint in vel dignissimos quae distinctio. Qui corrupti fugit, ducimus dolor vel repudiandae eos, vitae, quibusdam sunt sit id doloremque aliquid dolore iusto minima voluptates? Ratione, consectetur aliquid.
+                                                                            </p>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
-                                                            </div>
-                                                            <div class="accordion-item">
-                                                                <h2 class="accordion-header">
-                                                                    <button class="accordion-button collapsed azul-oscuro" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                                                        <h4 class="m-0 p-0 text-white ">PRESTACIONES</h4>
-                                                                    </button>
-                                                                </h2>
-                                                                <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample2">
-                                                                    <div class="accordion-body azul-oscuro text-white ">
-                                                                        <p>
-                                                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse consequatur, nemo eos ex veritatis unde distinctio minus quaerat in molestias soluta. Quisquam sint in vel dignissimos quae distinctio. Qui corrupti fugit, ducimus dolor vel repudiandae eos, vitae, quibusdam sunt sit id doloremque aliquid dolore iusto minima voluptates? Ratione, consectetur aliquid.
-                                                                        </p>
+                                                                <div class="accordion-item">
+                                                                    <h2 class="accordion-header">
+                                                                        <button class="accordion-button collapsed azul-oscuro" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                                                            <h4 class="m-0 p-0 text-white ">PRESTACIONES</h4>
+                                                                        </button>
+                                                                    </h2>
+                                                                    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample2">
+                                                                        <div class="accordion-body azul-oscuro text-white ">
+                                                                            <p>
+                                                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse consequatur, nemo eos ex veritatis unde distinctio minus quaerat in molestias soluta. Quisquam sint in vel dignissimos quae distinctio. Qui corrupti fugit, ducimus dolor vel repudiandae eos, vitae, quibusdam sunt sit id doloremque aliquid dolore iusto minima voluptates? Ratione, consectetur aliquid.
+                                                                            </p>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
-                                                            </div>
-                                                            <div class="col py-2 text-center border">
-                                                                <h4 class="m-0 p-0 text-white ">$9.000.00 <br> mensuales</h4>
+                                                                <div class="col py-2 text-center border">
+                                                                    <h4 class="m-0 p-0 text-white ">$9.000.00 <br> mensuales</h4>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                                <div class="col-12 position-absolute top-100 start-50 translate-middle">
-                                                    <div class="row">
-                                                        <div class="col-xl-8 col-lg-8 mx-auto text-center border border-transparent rounded">
-                                                            <a href="#" style="text-decoration: none;">
-                                                                <div class="row">
-                                                                    <div class="col-9 py-3 border-end border-white" style="background-color: #BCBCB0;">
-                                                                        <h4 class="m-0 p-0 texto-azul-oscuro">VER MÁS</h4>
+                                                    <div class="col-12 position-absolute top-100 start-50 translate-middle">
+                                                        <div class="row">
+                                                            <div class="col-xl-8 col-lg-8 mx-auto text-center border border-transparent rounded">
+                                                                <a href="#" style="text-decoration: none;">
+                                                                    <div class="row">
+                                                                        <div class="col-9 py-3 border-end border-white" style="background-color: #BCBCB0;">
+                                                                            <h4 class="m-0 p-0 texto-azul-oscuro">VER MÁS</h4>
+                                                                        </div>
+                                                                        <div class="col-3 py-2" style="background-color: #BCBCB0;">
+                                                                            <h2 class="m-0 p-0 texto-azul-oscuro">></h2>
+                                                                        </div>
                                                                     </div>
-                                                                    <div class="col-3 py-2" style="background-color: #BCBCB0;">
-                                                                        <h2 class="m-0 p-0 texto-azul-oscuro">></h2>
-                                                                    </div>
-                                                                </div>
-                                                            </a>
+                                                                </a>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="col-4 position-absolute top-0 start-100 translate-middle" style="background-color: #002859;">
-                                        <div class="row text-white">
-                                            <div class="col position-relative">
-                                                <div class="col-12 text-center py-5 position-absolute top-0 start-50 translate-middle">
-                                                    <img src="img/index/015-020.png" alt="" class="img-fluid bg-white px-5">
-                                                </div>
-                                                <div class="card mt-5 azul-oscuro">
-                                                    <div class="card-body py-5">
-                                                        <h3 class="text-center text-white ">VACANTE</h3>
-                                                        <div class="accordion" id="accordionExample3">
-                                                            <div class="accordion-item">
-                                                                <h2 class="accordion-header">
-                                                                    <button class="accordion-button collapsed azul-oscuro" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                                                        <h4 class="m-0 p-0 text-white ">DESCRIPCIÓN</h4>
-                                                                    </button>
-                                                                </h2>
-                                                                <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample3">
-                                                                    <div class="accordion-body azul-oscuro text-white ">
-                                                                        <p>
-                                                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi quam eveniet sequi beatae eos optio harum, voluptates saepe possimus voluptate fugiat impedit nihil a consequatur amet. Velit voluptatem molestias corporis explicabo expedita neque nam cumque praesentium laboriosam repudiandae dignissimos unde, accusamus quod consequuntur, delectus adipisci placeat optio sed numquam deserunt.
-                                                                        </p>
+                                        <div class="col-4 position-absolute top-0 start-100 translate-middle" style="background-color: #002859;">
+                                            <div class="row text-white">
+                                                <div class="col position-relative">
+                                                    <div class="col-12 text-center py-5 position-absolute top-0 start-50 translate-middle">
+                                                        <img src="img/index/015-020.png" alt="" class="img-fluid bg-white px-5">
+                                                    </div>
+                                                    <div class="card mt-5 azul-oscuro">
+                                                        <div class="card-body py-5">
+                                                            <h3 class="text-center text-white ">VACANTE</h3>
+                                                            <div class="accordion" id="accordionExample3">
+                                                                <div class="accordion-item">
+                                                                    <h2 class="accordion-header">
+                                                                        <button class="accordion-button collapsed azul-oscuro" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                                                            <h4 class="m-0 p-0 text-white ">DESCRIPCIÓN</h4>
+                                                                        </button>
+                                                                    </h2>
+                                                                    <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample3">
+                                                                        <div class="accordion-body azul-oscuro text-white ">
+                                                                            <p>
+                                                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi quam eveniet sequi beatae eos optio harum, voluptates saepe possimus voluptate fugiat impedit nihil a consequatur amet. Velit voluptatem molestias corporis explicabo expedita neque nam cumque praesentium laboriosam repudiandae dignissimos unde, accusamus quod consequuntur, delectus adipisci placeat optio sed numquam deserunt.
+                                                                            </p>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
-                                                            </div>
-                                                            <div class="accordion-item">
-                                                                <h2 class="accordion-header">
-                                                                    <button class="accordion-button collapsed azul-oscuro" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                                                        <h4 class="m-0 p-0 text-white ">REQUISITOS</h4>
-                                                                    </button>
-                                                                </h2>
-                                                                <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample3">
-                                                                    <div class="accordion-body azul-oscuro text-white">
-                                                                        <p>
-                                                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse consequatur, nemo eos ex veritatis unde distinctio minus quaerat in molestias soluta. Quisquam sint in vel dignissimos quae distinctio. Qui corrupti fugit, ducimus dolor vel repudiandae eos, vitae, quibusdam sunt sit id doloremque aliquid dolore iusto minima voluptates? Ratione, consectetur aliquid.
-                                                                        </p>
+                                                                <div class="accordion-item">
+                                                                    <h2 class="accordion-header">
+                                                                        <button class="accordion-button collapsed azul-oscuro" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                                                            <h4 class="m-0 p-0 text-white ">REQUISITOS</h4>
+                                                                        </button>
+                                                                    </h2>
+                                                                    <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample3">
+                                                                        <div class="accordion-body azul-oscuro text-white">
+                                                                            <p>
+                                                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse consequatur, nemo eos ex veritatis unde distinctio minus quaerat in molestias soluta. Quisquam sint in vel dignissimos quae distinctio. Qui corrupti fugit, ducimus dolor vel repudiandae eos, vitae, quibusdam sunt sit id doloremque aliquid dolore iusto minima voluptates? Ratione, consectetur aliquid.
+                                                                            </p>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
-                                                            </div>
-                                                            <div class="accordion-item">
-                                                                <h2 class="accordion-header">
-                                                                    <button class="accordion-button collapsed azul-oscuro" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                                                                        <h4 class="m-0 p-0 text-white ">PRESTACIONES</h4>
-                                                                    </button>
-                                                                </h2>
-                                                                <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample3">
-                                                                    <div class="accordion-body azul-oscuro text-white ">
-                                                                        <p>
-                                                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse consequatur, nemo eos ex veritatis unde distinctio minus quaerat in molestias soluta. Quisquam sint in vel dignissimos quae distinctio. Qui corrupti fugit, ducimus dolor vel repudiandae eos, vitae, quibusdam sunt sit id doloremque aliquid dolore iusto minima voluptates? Ratione, consectetur aliquid.
-                                                                        </p>
+                                                                <div class="accordion-item">
+                                                                    <h2 class="accordion-header">
+                                                                        <button class="accordion-button collapsed azul-oscuro" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                                                            <h4 class="m-0 p-0 text-white ">PRESTACIONES</h4>
+                                                                        </button>
+                                                                    </h2>
+                                                                    <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample3">
+                                                                        <div class="accordion-body azul-oscuro text-white ">
+                                                                            <p>
+                                                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse consequatur, nemo eos ex veritatis unde distinctio minus quaerat in molestias soluta. Quisquam sint in vel dignissimos quae distinctio. Qui corrupti fugit, ducimus dolor vel repudiandae eos, vitae, quibusdam sunt sit id doloremque aliquid dolore iusto minima voluptates? Ratione, consectetur aliquid.
+                                                                            </p>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
-                                                            </div>
-                                                            <div class="col py-2 text-center border">
-                                                                <h4 class="m-0 p-0 text-white ">$9.000.00 <br> mensuales</h4>
+                                                                <div class="col py-2 text-center border">
+                                                                    <h4 class="m-0 p-0 text-white ">$9.000.00 <br> mensuales</h4>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                                <div class="col-12 position-absolute top-100 start-50 translate-middle">
-                                                    <div class="row">
-                                                        <div class="col-xl-8 col-lg-8 mx-auto text-center border border-transparent rounded">
-                                                            <a href="#" style="text-decoration: none;">
-                                                                <div class="row">
-                                                                    <div class="col-9 py-3 border-end border-white" style="background-color: #BCBCB0;">
-                                                                        <h4 class="m-0 p-0 texto-azul-oscuro">VER MÁS</h4>
+                                                    <div class="col-12 position-absolute top-100 start-50 translate-middle">
+                                                        <div class="row">
+                                                            <div class="col-xl-8 col-lg-8 mx-auto text-center border border-transparent rounded">
+                                                                <a href="#" style="text-decoration: none;">
+                                                                    <div class="row">
+                                                                        <div class="col-9 py-3 border-end border-white" style="background-color: #BCBCB0;">
+                                                                            <h4 class="m-0 p-0 texto-azul-oscuro">VER MÁS</h4>
+                                                                        </div>
+                                                                        <div class="col-3 py-2" style="background-color: #BCBCB0;">
+                                                                            <h2 class="m-0 p-0 texto-azul-oscuro">></h2>
+                                                                        </div>
                                                                     </div>
-                                                                    <div class="col-3 py-2" style="background-color: #BCBCB0;">
-                                                                        <h2 class="m-0 p-0 texto-azul-oscuro">></h2>
-                                                                    </div>
-                                                                </div>
-                                                            </a>
+                                                                </a>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -743,6 +759,10 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <div class="container-fluid mt-5 mb-5">
+        
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         <div class="row">
